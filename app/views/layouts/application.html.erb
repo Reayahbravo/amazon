@@ -10,6 +10,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= link_to 'Home', home_path %>
+    <%= link_to 'about', about_path %>
+    <%= link_to('Contact Us', contact_path) %>
+      <hr>
+      <%= yield %>
   </body>
 </html>
